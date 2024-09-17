@@ -1,0 +1,47 @@
+/*Fondo de la pagina*/
+body {
+    background-color: black;
+}
+/* Base central */
+.post {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+/* Desde aqui cabecera */
+.post .post-header {
+    display: flex
+}
+.post .post-header p {
+    margin-block: auto;
+}
+.post .post-header .icono1 {
+    padding: 15px;
+}
+.post .post-header .icono2 {
+    margin-left: auto;
+    padding: 15px;
+}
+/* foto central */
+.foto{
+    width: 100%;
+}
+/* Parte final */
+.post .post-body .post-icons{
+    display: flex;
+    padding: 10px;
+}
+.post .post-body .post-icons img {
+    padding: 5px;
+}
+.post .post-body .post-icons .icono3 {
+    margin-left: auto;
+}
+.post-body p{
+    padding: 10px;
+    margin: 0px;
+}
+.post-body{
+    padding-bottom: 20px;
+}
